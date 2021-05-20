@@ -1,4 +1,4 @@
-package randCharGen;
+package Random_Character_Generator;
 
 import java.awt.BorderLayout;
 import java.awt.Graphics;
@@ -78,6 +78,1192 @@ public class background extends JPanel implements ActionListener
 		{ "Acolyte", "Charlatan", "Criminal", "Entertainer", "Folk Hero", "Guild Artisan", "Hermit", "Noble", "Outlander", "Sage", "Sailor", "Soldier" };
 		i = rand.nextInt(bgArray.length);
 		Background = bgArray[i];
+		switch (Background)
+		{
+		case "Acolyte":
+			Background += "<br/>-Skills: Insight, Religion<br/>-Languages: Two of choice<br/>--Equipment:<br/>--A holy symbol<br/>--a prayerbook/wheel<br/>--5 sticks of incense<br/>--vestments<br/>--common clothes<br/>--belt pouch of 15GP";
+			Background += "<br/>-Feature: Shelter of the faithful";
+			int trait = rand.nextInt(8), ideal = rand.nextInt(6), bond = rand.nextInt(6), flaw = rand.nextInt(6);
+			switch (trait)
+			{
+			case 0:
+				Background += "<br/>Trait: I idolize a particular hero of my faith, and constantly refer to that person’s deeds and example.";
+				break;
+			case 1:
+				Background += "<br/>Trait: I can find common ground between the fiercest enemies, empathizing and always workign toward peace";
+				break;
+			case 2:
+				Background += "<br/>Trait: I see omens in every event and action. The gods try to speak to us, we just need to listen";
+				break;
+			case 3:
+				Background += "<br/>Trait: Nothing can shake my optimistic attitude.";
+				break;
+			case 4:
+				Background += "<br/>Trait: I quote (or misquote) sacred texts and proverbs in almost every situation.";
+				break;
+			case 5:
+				Background += "<br/>Trait: I am tolerant (or intolerant) of other faiths and respect (or condemn) the worship of other gods.";
+				break;
+			case 6:
+				Background += "<br/>Trait: I've enjoyed fine food, drink, and high society among my temple’s elite. Rough living grates on me.";
+				break;
+			case 7:
+				Background += "<br/>Trait: I’ve spent so long in the temple that I have little practical experience dealing with people in the outside world.";
+				break;
+			}
+			switch (ideal)
+			{
+			case 0:
+				Background += "<br/>Ideal: ";
+				break;
+			case 1:
+				Background += "<br/>Ideal: ";
+				break;
+			case 2:
+				Background += "<br/>Ideal: ";
+				break;
+			case 3:
+				Background += "<br/>Ideal: ";
+				break;
+			case 4:
+				Background += "<br/>Ideal: ";
+				break;
+			case 5:
+				Background += "<br/>Ideal: ";
+				break;
+			}
+			switch (bond)
+			{
+			case 0:
+				Background += "<br/>Bond: ";
+				break;
+			case 1:
+				Background += "<br/>Bond: ";
+				break;
+			case 2:
+				Background += "<br/>Bond: ";
+				break;
+			case 3:
+				Background += "<br/>Bond: ";
+				break;
+			case 4:
+				Background += "<br/>Bond: ";
+				break;
+			case 5:
+				Background += "<br/>Bond: ";
+				break;
+			}
+			switch (flaw)
+			{
+			case 0:
+				Background += "<br/>Flaw: ";
+				break;
+			case 1:
+				Background += "<br/>Flaw: ";
+				break;
+			case 2:
+				Background += "<br/>Flaw: ";
+				break;
+			case 3:
+				Background += "<br/>Flaw: ";
+				break;
+			case 4:
+				Background += "<br/>Flaw: ";
+				break;
+			case 5:
+				Background += "<br/>Flaw: ";
+				break;
+			}
+			break;
+		case "Charlatan":
+			Background += "<br/>Skills: <br/>Equipment: ";
+			Background += "<br/>Feature: ";
+			trait = rand.nextInt(8);
+			ideal = rand.nextInt(6);
+			bond = rand.nextInt(6);
+			flaw = rand.nextInt(6);
+			switch (trait)
+			{
+			case 0:
+				Background += "<br/>Trait:";
+				break;
+			case 1:
+				Background += "<br/>Trait:";
+				break;
+			case 2:
+				Background += "<br/>Trait:";
+				break;
+			case 3:
+				Background += "<br/>Trait:";
+				break;
+			case 4:
+				Background += "<br/>Trait:";
+				break;
+			case 5:
+				Background += "<br/>Trait:";
+				break;
+			case 6:
+				Background += "<br/>Trait:";
+				break;
+			case 7:
+				Background += "<br/>Trait:";
+				break;
+			}
+			switch (ideal)
+			{
+			case 0:
+				Background += "<br/>Ideal: ";
+				break;
+			case 1:
+				Background += "<br/>Ideal: ";
+				break;
+			case 2:
+				Background += "<br/>Ideal: ";
+				break;
+			case 3:
+				Background += "<br/>Ideal: ";
+				break;
+			case 4:
+				Background += "<br/>Ideal: ";
+				break;
+			case 5:
+				Background += "<br/>Ideal: ";
+				break;
+			}
+			switch (bond)
+			{
+			case 0:
+				Background += "<br/>Bond: ";
+				break;
+			case 1:
+				Background += "<br/>Bond: ";
+				break;
+			case 2:
+				Background += "<br/>Bond: ";
+				break;
+			case 3:
+				Background += "<br/>Bond: ";
+				break;
+			case 4:
+				Background += "<br/>Bond: ";
+				break;
+			case 5:
+				Background += "<br/>Bond: ";
+				break;
+			}
+			switch (flaw)
+			{
+			case 0:
+				Background += "<br/>Flaw: ";
+				break;
+			case 1:
+				Background += "<br/>Flaw: ";
+				break;
+			case 2:
+				Background += "<br/>Flaw: ";
+				break;
+			case 3:
+				Background += "<br/>Flaw: ";
+				break;
+			case 4:
+				Background += "<br/>Flaw: ";
+				break;
+			case 5:
+				Background += "<br/>Flaw: ";
+				break;
+			}
+			break;
+		case "Criminal":
+			Background += "<br/>Skills: <br/>Equipment: ";
+			Background += "<br/>Feature: ";
+			trait = rand.nextInt(8);
+			ideal = rand.nextInt(6);
+			bond = rand.nextInt(6);
+			flaw = rand.nextInt(6);
+			switch (trait)
+			{
+			case 0:
+				Background += "<br/>Trait:";
+				break;
+			case 1:
+				Background += "<br/>Trait:";
+				break;
+			case 2:
+				Background += "<br/>Trait:";
+				break;
+			case 3:
+				Background += "<br/>Trait:";
+				break;
+			case 4:
+				Background += "<br/>Trait:";
+				break;
+			case 5:
+				Background += "<br/>Trait:";
+				break;
+			case 6:
+				Background += "<br/>Trait:";
+				break;
+			case 7:
+				Background += "<br/>Trait:";
+				break;
+			}
+			switch (ideal)
+			{
+			case 0:
+				Background += "<br/>Ideal: ";
+				break;
+			case 1:
+				Background += "<br/>Ideal: ";
+				break;
+			case 2:
+				Background += "<br/>Ideal: ";
+				break;
+			case 3:
+				Background += "<br/>Ideal: ";
+				break;
+			case 4:
+				Background += "<br/>Ideal: ";
+				break;
+			case 5:
+				Background += "<br/>Ideal: ";
+				break;
+			}
+			switch (bond)
+			{
+			case 0:
+				Background += "<br/>Bond: ";
+				break;
+			case 1:
+				Background += "<br/>Bond: ";
+				break;
+			case 2:
+				Background += "<br/>Bond: ";
+				break;
+			case 3:
+				Background += "<br/>Bond: ";
+				break;
+			case 4:
+				Background += "<br/>Bond: ";
+				break;
+			case 5:
+				Background += "<br/>Bond: ";
+				break;
+			}
+			switch (flaw)
+			{
+			case 0:
+				Background += "<br/>Flaw: ";
+				break;
+			case 1:
+				Background += "<br/>Flaw: ";
+				break;
+			case 2:
+				Background += "<br/>Flaw: ";
+				break;
+			case 3:
+				Background += "<br/>Flaw: ";
+				break;
+			case 4:
+				Background += "<br/>Flaw: ";
+				break;
+			case 5:
+				Background += "<br/>Flaw: ";
+				break;
+			}
+
+			break;
+		case "Entertainer":
+			Background += "<br/>Skills: <br/>Equipment: ";
+			Background += "<br/>Feature: ";
+			trait = rand.nextInt(8);
+			ideal = rand.nextInt(6);
+			bond = rand.nextInt(6);
+			flaw = rand.nextInt(6);
+			switch (trait)
+			{
+			case 0:
+				Background += "<br/>Trait:";
+				break;
+			case 1:
+				Background += "<br/>Trait:";
+				break;
+			case 2:
+				Background += "<br/>Trait:";
+				break;
+			case 3:
+				Background += "<br/>Trait:";
+				break;
+			case 4:
+				Background += "<br/>Trait:";
+				break;
+			case 5:
+				Background += "<br/>Trait:";
+				break;
+			case 6:
+				Background += "<br/>Trait:";
+				break;
+			case 7:
+				Background += "<br/>Trait:";
+				break;
+			}
+			switch (ideal)
+			{
+			case 0:
+				Background += "<br/>Ideal: ";
+				break;
+			case 1:
+				Background += "<br/>Ideal: ";
+				break;
+			case 2:
+				Background += "<br/>Ideal: ";
+				break;
+			case 3:
+				Background += "<br/>Ideal: ";
+				break;
+			case 4:
+				Background += "<br/>Ideal: ";
+				break;
+			case 5:
+				Background += "<br/>Ideal: ";
+				break;
+			}
+			switch (bond)
+			{
+			case 0:
+				Background += "<br/>Bond: ";
+				break;
+			case 1:
+				Background += "<br/>Bond: ";
+				break;
+			case 2:
+				Background += "<br/>Bond: ";
+				break;
+			case 3:
+				Background += "<br/>Bond: ";
+				break;
+			case 4:
+				Background += "<br/>Bond: ";
+				break;
+			case 5:
+				Background += "<br/>Bond: ";
+				break;
+			}
+			switch (flaw)
+			{
+			case 0:
+				Background += "<br/>Flaw: ";
+				break;
+			case 1:
+				Background += "<br/>Flaw: ";
+				break;
+			case 2:
+				Background += "<br/>Flaw: ";
+				break;
+			case 3:
+				Background += "<br/>Flaw: ";
+				break;
+			case 4:
+				Background += "<br/>Flaw: ";
+				break;
+			case 5:
+				Background += "<br/>Flaw: ";
+				break;
+			}
+
+			break;
+		case "Folk Hero":
+			Background += "<br/>Skills: <br/>Equipment: ";
+			Background += "<br/>Feature: ";
+			trait = rand.nextInt(8);
+			ideal = rand.nextInt(6);
+			bond = rand.nextInt(6);
+			flaw = rand.nextInt(6);
+			switch (trait)
+			{
+			case 0:
+				Background += "<br/>Trait:";
+				break;
+			case 1:
+				Background += "<br/>Trait:";
+				break;
+			case 2:
+				Background += "<br/>Trait:";
+				break;
+			case 3:
+				Background += "<br/>Trait:";
+				break;
+			case 4:
+				Background += "<br/>Trait:";
+				break;
+			case 5:
+				Background += "<br/>Trait:";
+				break;
+			case 6:
+				Background += "<br/>Trait:";
+				break;
+			case 7:
+				Background += "<br/>Trait:";
+				break;
+			}
+			switch (ideal)
+			{
+			case 0:
+				Background += "<br/>Ideal: ";
+				break;
+			case 1:
+				Background += "<br/>Ideal: ";
+				break;
+			case 2:
+				Background += "<br/>Ideal: ";
+				break;
+			case 3:
+				Background += "<br/>Ideal: ";
+				break;
+			case 4:
+				Background += "<br/>Ideal: ";
+				break;
+			case 5:
+				Background += "<br/>Ideal: ";
+				break;
+			}
+			switch (bond)
+			{
+			case 0:
+				Background += "<br/>Bond: ";
+				break;
+			case 1:
+				Background += "<br/>Bond: ";
+				break;
+			case 2:
+				Background += "<br/>Bond: ";
+				break;
+			case 3:
+				Background += "<br/>Bond: ";
+				break;
+			case 4:
+				Background += "<br/>Bond: ";
+				break;
+			case 5:
+				Background += "<br/>Bond: ";
+				break;
+			}
+			switch (flaw)
+			{
+			case 0:
+				Background += "<br/>Flaw: ";
+				break;
+			case 1:
+				Background += "<br/>Flaw: ";
+				break;
+			case 2:
+				Background += "<br/>Flaw: ";
+				break;
+			case 3:
+				Background += "<br/>Flaw: ";
+				break;
+			case 4:
+				Background += "<br/>Flaw: ";
+				break;
+			case 5:
+				Background += "<br/>Flaw: ";
+				break;
+			}
+
+			break;
+		case "Guild Artisan":
+			Background += "<br/>Skills: <br/>Equipment: ";
+			Background += "<br/>Feature: ";
+			trait = rand.nextInt(8);
+			ideal = rand.nextInt(6);
+			bond = rand.nextInt(6);
+			flaw = rand.nextInt(6);
+			switch (trait)
+			{
+			case 0:
+				Background += "<br/>Trait:";
+				break;
+			case 1:
+				Background += "<br/>Trait:";
+				break;
+			case 2:
+				Background += "<br/>Trait:";
+				break;
+			case 3:
+				Background += "<br/>Trait:";
+				break;
+			case 4:
+				Background += "<br/>Trait:";
+				break;
+			case 5:
+				Background += "<br/>Trait:";
+				break;
+			case 6:
+				Background += "<br/>Trait:";
+				break;
+			case 7:
+				Background += "<br/>Trait:";
+				break;
+			}
+			switch (ideal)
+			{
+			case 0:
+				Background += "<br/>Ideal: ";
+				break;
+			case 1:
+				Background += "<br/>Ideal: ";
+				break;
+			case 2:
+				Background += "<br/>Ideal: ";
+				break;
+			case 3:
+				Background += "<br/>Ideal: ";
+				break;
+			case 4:
+				Background += "<br/>Ideal: ";
+				break;
+			case 5:
+				Background += "<br/>Ideal: ";
+				break;
+			}
+			switch (bond)
+			{
+			case 0:
+				Background += "<br/>Bond: ";
+				break;
+			case 1:
+				Background += "<br/>Bond: ";
+				break;
+			case 2:
+				Background += "<br/>Bond: ";
+				break;
+			case 3:
+				Background += "<br/>Bond: ";
+				break;
+			case 4:
+				Background += "<br/>Bond: ";
+				break;
+			case 5:
+				Background += "<br/>Bond: ";
+				break;
+			}
+			switch (flaw)
+			{
+			case 0:
+				Background += "<br/>Flaw: ";
+				break;
+			case 1:
+				Background += "<br/>Flaw: ";
+				break;
+			case 2:
+				Background += "<br/>Flaw: ";
+				break;
+			case 3:
+				Background += "<br/>Flaw: ";
+				break;
+			case 4:
+				Background += "<br/>Flaw: ";
+				break;
+			case 5:
+				Background += "<br/>Flaw: ";
+				break;
+			}
+
+			break;
+		case "Hermit":
+			Background += "<br/>Skills: <br/>Equipment: ";
+			Background += "<br/>Feature: ";
+			trait = rand.nextInt(8);
+			ideal = rand.nextInt(6);
+			bond = rand.nextInt(6);
+			flaw = rand.nextInt(6);
+			switch (trait)
+			{
+			case 0:
+				Background += "<br/>Trait:";
+				break;
+			case 1:
+				Background += "<br/>Trait:";
+				break;
+			case 2:
+				Background += "<br/>Trait:";
+				break;
+			case 3:
+				Background += "<br/>Trait:";
+				break;
+			case 4:
+				Background += "<br/>Trait:";
+				break;
+			case 5:
+				Background += "<br/>Trait:";
+				break;
+			case 6:
+				Background += "<br/>Trait:";
+				break;
+			case 7:
+				Background += "<br/>Trait:";
+				break;
+			}
+			switch (ideal)
+			{
+			case 0:
+				Background += "<br/>Ideal: ";
+				break;
+			case 1:
+				Background += "<br/>Ideal: ";
+				break;
+			case 2:
+				Background += "<br/>Ideal: ";
+				break;
+			case 3:
+				Background += "<br/>Ideal: ";
+				break;
+			case 4:
+				Background += "<br/>Ideal: ";
+				break;
+			case 5:
+				Background += "<br/>Ideal: ";
+				break;
+			}
+			switch (bond)
+			{
+			case 0:
+				Background += "<br/>Bond: ";
+				break;
+			case 1:
+				Background += "<br/>Bond: ";
+				break;
+			case 2:
+				Background += "<br/>Bond: ";
+				break;
+			case 3:
+				Background += "<br/>Bond: ";
+				break;
+			case 4:
+				Background += "<br/>Bond: ";
+				break;
+			case 5:
+				Background += "<br/>Bond: ";
+				break;
+			}
+			switch (flaw)
+			{
+			case 0:
+				Background += "<br/>Flaw: ";
+				break;
+			case 1:
+				Background += "<br/>Flaw: ";
+				break;
+			case 2:
+				Background += "<br/>Flaw: ";
+				break;
+			case 3:
+				Background += "<br/>Flaw: ";
+				break;
+			case 4:
+				Background += "<br/>Flaw: ";
+				break;
+			case 5:
+				Background += "<br/>Flaw: ";
+				break;
+			}
+
+			break;
+		case "Noble":
+			Background += "<br/>Skills: <br/>Equipment: ";
+			Background += "<br/>Feature: ";
+			trait = rand.nextInt(8);
+			ideal = rand.nextInt(6);
+			bond = rand.nextInt(6);
+			flaw = rand.nextInt(6);
+			switch (trait)
+			{
+			case 0:
+				Background += "<br/>Trait:";
+				break;
+			case 1:
+				Background += "<br/>Trait:";
+				break;
+			case 2:
+				Background += "<br/>Trait:";
+				break;
+			case 3:
+				Background += "<br/>Trait:";
+				break;
+			case 4:
+				Background += "<br/>Trait:";
+				break;
+			case 5:
+				Background += "<br/>Trait:";
+				break;
+			case 6:
+				Background += "<br/>Trait:";
+				break;
+			case 7:
+				Background += "<br/>Trait:";
+				break;
+			}
+			switch (ideal)
+			{
+			case 0:
+				Background += "<br/>Ideal: ";
+				break;
+			case 1:
+				Background += "<br/>Ideal: ";
+				break;
+			case 2:
+				Background += "<br/>Ideal: ";
+				break;
+			case 3:
+				Background += "<br/>Ideal: ";
+				break;
+			case 4:
+				Background += "<br/>Ideal: ";
+				break;
+			case 5:
+				Background += "<br/>Ideal: ";
+				break;
+			}
+			switch (bond)
+			{
+			case 0:
+				Background += "<br/>Bond: ";
+				break;
+			case 1:
+				Background += "<br/>Bond: ";
+				break;
+			case 2:
+				Background += "<br/>Bond: ";
+				break;
+			case 3:
+				Background += "<br/>Bond: ";
+				break;
+			case 4:
+				Background += "<br/>Bond: ";
+				break;
+			case 5:
+				Background += "<br/>Bond: ";
+				break;
+			}
+			switch (flaw)
+			{
+			case 0:
+				Background += "<br/>Flaw: ";
+				break;
+			case 1:
+				Background += "<br/>Flaw: ";
+				break;
+			case 2:
+				Background += "<br/>Flaw: ";
+				break;
+			case 3:
+				Background += "<br/>Flaw: ";
+				break;
+			case 4:
+				Background += "<br/>Flaw: ";
+				break;
+			case 5:
+				Background += "<br/>Flaw: ";
+				break;
+			}
+
+			break;
+		case "Outlander":
+			Background += "<br/>Skills: <br/>Equipment: ";
+			Background += "<br/>Feature: ";
+			trait = rand.nextInt(8);
+			ideal = rand.nextInt(6);
+			bond = rand.nextInt(6);
+			flaw = rand.nextInt(6);
+			switch (trait)
+			{
+			case 0:
+				Background += "<br/>Trait:";
+				break;
+			case 1:
+				Background += "<br/>Trait:";
+				break;
+			case 2:
+				Background += "<br/>Trait:";
+				break;
+			case 3:
+				Background += "<br/>Trait:";
+				break;
+			case 4:
+				Background += "<br/>Trait:";
+				break;
+			case 5:
+				Background += "<br/>Trait:";
+				break;
+			case 6:
+				Background += "<br/>Trait:";
+				break;
+			case 7:
+				Background += "<br/>Trait:";
+				break;
+			}
+			switch (ideal)
+			{
+			case 0:
+				Background += "<br/>Ideal: ";
+				break;
+			case 1:
+				Background += "<br/>Ideal: ";
+				break;
+			case 2:
+				Background += "<br/>Ideal: ";
+				break;
+			case 3:
+				Background += "<br/>Ideal: ";
+				break;
+			case 4:
+				Background += "<br/>Ideal: ";
+				break;
+			case 5:
+				Background += "<br/>Ideal: ";
+				break;
+			}
+			switch (bond)
+			{
+			case 0:
+				Background += "<br/>Bond: ";
+				break;
+			case 1:
+				Background += "<br/>Bond: ";
+				break;
+			case 2:
+				Background += "<br/>Bond: ";
+				break;
+			case 3:
+				Background += "<br/>Bond: ";
+				break;
+			case 4:
+				Background += "<br/>Bond: ";
+				break;
+			case 5:
+				Background += "<br/>Bond: ";
+				break;
+			}
+			switch (flaw)
+			{
+			case 0:
+				Background += "<br/>Flaw: ";
+				break;
+			case 1:
+				Background += "<br/>Flaw: ";
+				break;
+			case 2:
+				Background += "<br/>Flaw: ";
+				break;
+			case 3:
+				Background += "<br/>Flaw: ";
+				break;
+			case 4:
+				Background += "<br/>Flaw: ";
+				break;
+			case 5:
+				Background += "<br/>Flaw: ";
+				break;
+			}
+
+			break;
+		case "Sage":
+			Background += "<br/>Skills: <br/>Equipment: ";
+			Background += "<br/>Feature: ";
+			trait = rand.nextInt(8);
+			ideal = rand.nextInt(6);
+			bond = rand.nextInt(6);
+			flaw = rand.nextInt(6);
+			switch (trait)
+			{
+			case 0:
+				Background += "<br/>Trait:";
+				break;
+			case 1:
+				Background += "<br/>Trait:";
+				break;
+			case 2:
+				Background += "<br/>Trait:";
+				break;
+			case 3:
+				Background += "<br/>Trait:";
+				break;
+			case 4:
+				Background += "<br/>Trait:";
+				break;
+			case 5:
+				Background += "<br/>Trait:";
+				break;
+			case 6:
+				Background += "<br/>Trait:";
+				break;
+			case 7:
+				Background += "<br/>Trait:";
+				break;
+			}
+			switch (ideal)
+			{
+			case 0:
+				Background += "<br/>Ideal: ";
+				break;
+			case 1:
+				Background += "<br/>Ideal: ";
+				break;
+			case 2:
+				Background += "<br/>Ideal: ";
+				break;
+			case 3:
+				Background += "<br/>Ideal: ";
+				break;
+			case 4:
+				Background += "<br/>Ideal: ";
+				break;
+			case 5:
+				Background += "<br/>Ideal: ";
+				break;
+			}
+			switch (bond)
+			{
+			case 0:
+				Background += "<br/>Bond: ";
+				break;
+			case 1:
+				Background += "<br/>Bond: ";
+				break;
+			case 2:
+				Background += "<br/>Bond: ";
+				break;
+			case 3:
+				Background += "<br/>Bond: ";
+				break;
+			case 4:
+				Background += "<br/>Bond: ";
+				break;
+			case 5:
+				Background += "<br/>Bond: ";
+				break;
+			}
+			switch (flaw)
+			{
+			case 0:
+				Background += "<br/>Flaw: ";
+				break;
+			case 1:
+				Background += "<br/>Flaw: ";
+				break;
+			case 2:
+				Background += "<br/>Flaw: ";
+				break;
+			case 3:
+				Background += "<br/>Flaw: ";
+				break;
+			case 4:
+				Background += "<br/>Flaw: ";
+				break;
+			case 5:
+				Background += "<br/>Flaw: ";
+				break;
+			}
+
+			break;
+		case "Sailor":
+			Background += "<br/>Skills: <br/>Equipment: ";
+			Background += "<br/>Feature: ";
+			trait = rand.nextInt(8);
+			ideal = rand.nextInt(6);
+			bond = rand.nextInt(6);
+			flaw = rand.nextInt(6);
+			switch (trait)
+			{
+			case 0:
+				Background += "<br/>Trait:";
+				break;
+			case 1:
+				Background += "<br/>Trait:";
+				break;
+			case 2:
+				Background += "<br/>Trait:";
+				break;
+			case 3:
+				Background += "<br/>Trait:";
+				break;
+			case 4:
+				Background += "<br/>Trait:";
+				break;
+			case 5:
+				Background += "<br/>Trait:";
+				break;
+			case 6:
+				Background += "<br/>Trait:";
+				break;
+			case 7:
+				Background += "<br/>Trait:";
+				break;
+			}
+			switch (ideal)
+			{
+			case 0:
+				Background += "<br/>Ideal: ";
+				break;
+			case 1:
+				Background += "<br/>Ideal: ";
+				break;
+			case 2:
+				Background += "<br/>Ideal: ";
+				break;
+			case 3:
+				Background += "<br/>Ideal: ";
+				break;
+			case 4:
+				Background += "<br/>Ideal: ";
+				break;
+			case 5:
+				Background += "<br/>Ideal: ";
+				break;
+			}
+			switch (bond)
+			{
+			case 0:
+				Background += "<br/>Bond: ";
+				break;
+			case 1:
+				Background += "<br/>Bond: ";
+				break;
+			case 2:
+				Background += "<br/>Bond: ";
+				break;
+			case 3:
+				Background += "<br/>Bond: ";
+				break;
+			case 4:
+				Background += "<br/>Bond: ";
+				break;
+			case 5:
+				Background += "<br/>Bond: ";
+				break;
+			}
+			switch (flaw)
+			{
+			case 0:
+				Background += "<br/>Flaw: ";
+				break;
+			case 1:
+				Background += "<br/>Flaw: ";
+				break;
+			case 2:
+				Background += "<br/>Flaw: ";
+				break;
+			case 3:
+				Background += "<br/>Flaw: ";
+				break;
+			case 4:
+				Background += "<br/>Flaw: ";
+				break;
+			case 5:
+				Background += "<br/>Flaw: ";
+				break;
+			}
+
+			break;
+		case "Soldier":
+			Background += "<br/>Skills: <br/>Equipment: ";
+			Background += "<br/>Feature: ";
+			trait = rand.nextInt(8);
+			ideal = rand.nextInt(6);
+			bond = rand.nextInt(6);
+			flaw = rand.nextInt(6);
+			switch (trait)
+			{
+			case 0:
+				Background += "<br/>Trait:";
+				break;
+			case 1:
+				Background += "<br/>Trait:";
+				break;
+			case 2:
+				Background += "<br/>Trait:";
+				break;
+			case 3:
+				Background += "<br/>Trait:";
+				break;
+			case 4:
+				Background += "<br/>Trait:";
+				break;
+			case 5:
+				Background += "<br/>Trait:";
+				break;
+			case 6:
+				Background += "<br/>Trait:";
+				break;
+			case 7:
+				Background += "<br/>Trait:";
+				break;
+			}
+			switch (ideal)
+			{
+			case 0:
+				Background += "<br/>Ideal: ";
+				break;
+			case 1:
+				Background += "<br/>Ideal: ";
+				break;
+			case 2:
+				Background += "<br/>Ideal: ";
+				break;
+			case 3:
+				Background += "<br/>Ideal: ";
+				break;
+			case 4:
+				Background += "<br/>Ideal: ";
+				break;
+			case 5:
+				Background += "<br/>Ideal: ";
+				break;
+			}
+			switch (bond)
+			{
+			case 0:
+				Background += "<br/>Bond: ";
+				break;
+			case 1:
+				Background += "<br/>Bond: ";
+				break;
+			case 2:
+				Background += "<br/>Bond: ";
+				break;
+			case 3:
+				Background += "<br/>Bond: ";
+				break;
+			case 4:
+				Background += "<br/>Bond: ";
+				break;
+			case 5:
+				Background += "<br/>Bond: ";
+				break;
+			}
+			switch (flaw)
+			{
+			case 0:
+				Background += "<br/>Flaw: ";
+				break;
+			case 1:
+				Background += "<br/>Flaw: ";
+				break;
+			case 2:
+				Background += "<br/>Flaw: ";
+				break;
+			case 3:
+				Background += "<br/>Flaw: ";
+				break;
+			case 4:
+				Background += "<br/>Flaw: ";
+				break;
+			case 5:
+				Background += "<br/>Flaw: ";
+				break;
+			}
+
+			break;
+		}
 
 		// age and racials
 		switch (Race)
@@ -134,19 +1320,114 @@ public class background extends JPanel implements ActionListener
 			}
 			break;
 		case "Halfling":
+			Dexterity += "+2";
+			age = rand.nextInt(150 - 20 + 1) + 20;
+			Racials += "<br/>-Speed:25<br/>-Lucky<br/>-Brave<br/>-Halfling Nimbleness<br/>-Languages: Common and Halfling<br/>";
+			subrace = rand.nextInt(2);
+			switch (subrace)
+			{
+			case 0:
+				Charisma += "+1";
+				Racials += "-Naturally Stealthy";
+				break;
+			case 1:
+				Constitution += "+1";
+				Racials += "-Stout Resilience";
+				break;
+			}
 			break;
 		case "Human":
+			age = rand.nextInt(85 - 17 + 1) + 17;
+			subrace = rand.nextInt(2);
+			Racials += "<br/>-Speed:30<br/>-Languages: Common, plus one more<br/>";
+			switch (subrace)
+			{
+			case 0:
+				Strength += "+1";
+				Dexterity += "+1";
+				Constitution += "+1";
+				Intelligence += "+1";
+				Wisdom += "+1";
+				Charisma += "+1";
+				break;
+			case 1:
+				Racials += "- +1 to two abilities of your choice<br/>-Profiency in one extra skill<br/>-One feat of choice<br/>";
+				break;
+			}
 			break;
 		case "Dragonborn":
+			age = rand.nextInt(80 - 15 + 1) + 15;
+			Strength += "+2";
+			Charisma += "+1";
+			Racials += "<br/>-Speed:30<br/>-Languages: Common and Draconic<br/>-Breath Weapon<br/>-Damage Resistance<br/>";
+			subrace = rand.nextInt(10);
+			switch (subrace)
+			{
+			case 0:
+				Racials += "-Draconic Ancestry: Black";
+				break;
+			case 1:
+				Racials += "-Draconic Ancestry: Blue";
+				break;
+			case 2:
+				Racials += "-Draconic Ancestry: Brass";
+				break;
+			case 3:
+				Racials += "-Draconic Ancestry: Bronze";
+				break;
+			case 4:
+				Racials += "-Draconic Ancestry: Copper";
+				break;
+			case 5:
+				Racials += "-Draconic Ancestry: Gold";
+				break;
+			case 6:
+				Racials += "-Draconic Ancestry: Green";
+				break;
+			case 7:
+				Racials += "-Draconic Ancestry: Red";
+				break;
+			case 8:
+				Racials += "-Draconic Ancestry: Silver";
+				break;
+			case 9:
+				Racials += "-Draconic Ancestry: White";
+				break;
+			}
 			break;
 		case "Gnome":
+			Intelligence += "+2";
+			age = rand.nextInt(400 - 40 + 1) + 40;
+			Racials += "<br/>-Speed:25<br/>-Darkvision<br/>-Gnome Cunning<br/>-Languages: Common and Gnomish<br/>";
+			subrace = rand.nextInt(2);
+			switch (subrace)
+			{
+			case 0:
+				Dexterity += "+1";
+				Racials += "-Natural Illusionist<br/>-Speak with small beasts";
+				break;
+			case 1:
+				Constitution += "+1";
+				Racials += "-Artificer's lore<br/>-Tinker";
+				break;
+			}
 			break;
 		case "Half-Elf":
+			age = rand.nextInt(180 - 20 + 1) + 20;
+			Charisma += "+2";
+			Racials += "<br/>-Ability Scores:+1 to two of your choice besides Charisma<br/>-Speed:30<br/>-Darkvision<br/>-Fey Ancestry<br/>-Proficiency in 2 extra skills<br/>-Languages: Common, Elvish, and one other";
 			break;
 		case "Half-Orc":
+			Strength += "+2";
+			Constitution += "+1";
+			age = rand.nextInt(75 - 14 + 1) + 14;
+			Racials += "<br/>-Speed:30<br/>-Darkvision<br/>-Proficiency in Intimidation<br/>-Reckless Endurance<br/>-Savage Attacks<br/>-Languages: Common and Orc";
 			break;
 		case "Tiefling":
-
+			age = rand.nextInt(90 - 17 + 1) + 17;
+			Charisma += "+2";
+			Intelligence += "+1";
+			Racials += "<br/>-Speed:30<br/>-Darkvision<br/>-Resistance to Fire<br/>-Infernal Legacy<br/>-Languages: Common and Infernal";
 			break;
 		}
 
