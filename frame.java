@@ -13,7 +13,7 @@ public class frame extends JFrame
 				setSize(1000, 1000);
 				setResizable(true);
 				setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-				background bg = new background();
+				Random_Character_Generator.background bg = new Random_Character_Generator.background();
 				add(bg); 
 		}
 	}

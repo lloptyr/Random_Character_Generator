@@ -87,10 +87,10 @@ public class background extends JPanel implements ActionListener
 			switch (trait)
 			{
 			case 0:
-				Background += "<br/>Trait: I idolize a particular hero of my faith, and constantly refer to that person’s deeds and example.";
+				Background += "<br/>Trait: I idolize a particular hero of my faith, and constantly refer to that person's deeds and example.";
 				break;
 			case 1:
-				Background += "<br/>Trait: I can find common ground between the fiercest enemies, empathizing and always workign toward peace";
+				Background += "<br/>Trait: I can find common ground between the fiercest enemies, empathizing and always working toward peace";
 				break;
 			case 2:
 				Background += "<br/>Trait: I see omens in every event and action. The gods try to speak to us, we just need to listen";
@@ -105,10 +105,10 @@ public class background extends JPanel implements ActionListener
 				Background += "<br/>Trait: I am tolerant (or intolerant) of other faiths and respect (or condemn) the worship of other gods.";
 				break;
 			case 6:
-				Background += "<br/>Trait: I've enjoyed fine food, drink, and high society among my temple’s elite. Rough living grates on me.";
+				Background += "<br/>Trait: I've enjoyed fine food, drink, and high society among my temple's elite. Rough living grates on me.";
 				break;
 			case 7:
-				Background += "<br/>Trait: I’ve spent so long in the temple that I have little practical experience dealing with people in the outside world.";
+				Background += "<br/>Trait: I've spent so long in the temple that I have little practical experience dealing with people in the outside world.";
 				break;
 			}
 			switch (ideal)
@@ -123,13 +123,13 @@ public class background extends JPanel implements ActionListener
 				Background += "<br/>Ideal: Change. We must help bring about the changes the gods are constantly working in the world.";
 				break;
 			case 3:
-				Background += "<br/>Ideal: Power. I hope to one day rise to the top of my faith’s religious hierarchy.";
+				Background += "<br/>Ideal: Power. I hope to one day rise to the top of my faith's religious hierarchy.";
 				break;
 			case 4:
 				Background += "<br/>Ideal: Faith. I trust that my deity will guide my actions, I have faith that if I work hard, things will go well.";
 				break;
 			case 5:
-				Background += "<br/>Ideal: Aspiration. I seek to prove myself worthy of my god’s favor by matching my actions against their teachings.";
+				Background += "<br/>Ideal: Aspiration. I seek to prove myself worthy of my god's favor by matching my actions against their teachings.";
 				break;
 			}
 			switch (bond)
@@ -159,7 +159,7 @@ public class background extends JPanel implements ActionListener
 				Background += "<br/>Flaw: I judge others harshly, and myself even more severely.";
 				break;
 			case 1:
-				Background += "<br/>Flaw: I put too much trust in those who wield power within my temple’s hierarchy.";
+				Background += "<br/>Flaw: I put too much trust in those who wield power within my temple's hierarchy.";
 				break;
 			case 2:
 				Background += "<br/>Flaw: My piety sometimes leads me to blindly trust those that profess faith in my god.";
@@ -185,7 +185,7 @@ public class background extends JPanel implements ActionListener
 			break;
 			case 1: Background+="Scam: I shave coins or forge documents.";
 			break;
-			case 2: Background+="Scam: I insinuate myself into people’s lives to prey on their weakness and secure their fortunes.";
+			case 2: Background+="Scam: I insinuate myself into people's lives to prey on their weakness and secure their fortunes.";
 			break;
 			case 3: Background+="Scam: I put on new identities like clothes.<br/>";
 			break;
@@ -210,10 +210,10 @@ public class background extends JPanel implements ActionListener
 				Background += "<br/>Trait: Flattery is my preferred trick for getting what I want.";
 				break;
 			case 3:
-				Background += "<br/>Trait: I’m a born gambler who can't resist taking a risk for a potential payoff.";
+				Background += "<br/>Trait: I'm a born gambler who can't resist taking a risk for a potential payoff.";
 				break;
 			case 4:
-				Background += "<br/>Trait: I lie about almost everything, even when there’s no good reason to.";
+				Background += "<br/>Trait: I lie about almost everything, even when there's no good reason to.";
 				break;
 			case 5:
 				Background += "<br/>Trait: Sarcasm and insults are my weapons of choice.";
@@ -228,10 +228,10 @@ public class background extends JPanel implements ActionListener
 			switch (ideal)
 			{
 			case 0:
-				Background += "<br/>Ideal: Independence. I am a free spirit— no one tells me what to do.";
+				Background += "<br/>Ideal: Independence. I am a free spirit. no one tells me what to do.";
 				break;
 			case 1:
-				Background += "<br/>Ideal: Fairness. I never target people who can’t afford to lose a few coins.";
+				Background += "<br/>Ideal: Fairness. I never target people who can't afford to lose a few coins.";
 				break;
 			case 2:
 				Background += "<br/>Ideal: Charity. I distribute the money I acquire to the people who really need it.";
@@ -243,7 +243,7 @@ public class background extends JPanel implements ActionListener
 				Background += "<br/>Ideal: Friendship. Material goods come and go. Bonds of friendship last forever.";
 				break;
 			case 5:
-				Background += "<br/>Ideal: Aspiration. I’m determined to make something of myself.";
+				Background += "<br/>Ideal: Aspiration. I'm determined to make something of myself.";
 				break;
 			}
 			switch (bond)
@@ -252,37 +252,37 @@ public class background extends JPanel implements ActionListener
 				Background += "<br/>Bond: I fleeced the wrong person and must work to ensure that this individual never crosses paths with me or those I care about.";
 				break;
 			case 1:
-				Background += "<br/>Bond: I owe everything to my mentor— a horrible person who’s probably rotting in jail somewhere.";
+				Background += "<br/>Bond: I owe everything to my mentor, a horrible person who's probably rotting in jail somewhere.";
 				break;
 			case 2:
-				Background += "<br/>Bond: Somewhere out there, I have a child who doesn’t know me. I’m making the world better for them.";
+				Background += "<br/>Bond: Somewhere out there, I have a child who doesn't know me. I'm making the world better for them.";
 				break;
 			case 3:
-				Background += "<br/>Bond: I come from a noble family, and one day I’ll reclaim my lands and title from those who stole them from me.";
+				Background += "<br/>Bond: I come from a noble family, and one day I'll reclaim my lands and title from those who stole them from me.";
 				break;
 			case 4:
-				Background += "<br/>Bond: A powerful person killed someone I love. Some day soon, I’ll have my revenge.";
+				Background += "<br/>Bond: A powerful person killed someone I love. Some day soon, I'll have my revenge.";
 				break;
 			case 5:
-				Background += "<br/>Bond: I swindled and ruined a person who didn’t deserve it. I seek to atone for my misdeeds but might never be able to forgive myself.";
+				Background += "<br/>Bond: I swindled and ruined a person who didn't deserve it. I seek to atone for my misdeeds but might never be able to forgive myself.";
 				break;
 			}
 			switch (flaw)
 			{
 			case 0:
-				Background += "<br/>Flaw: I can’t resist a pretty face.";
+				Background += "<br/>Flaw: I can't resist a pretty face.";
 				break;
 			case 1:
 				Background += "<br/>Flaw: I'm always in debt. I spend my ill-gotten gains on decadent luxuries faster than I bring them in..";
 				break;
 			case 2:
-				Background += "<br/>Flaw: I’m convinced that no one could ever fool me the way I fool others.";
+				Background += "<br/>Flaw: I'm convinced that no one could ever fool me the way I fool others.";
 				break;
 			case 3:
-				Background += "<br/>Flaw: I’m too greedy for my own good. I can’t resist taking a risk if there’s money involved.";
+				Background += "<br/>Flaw: I'm too greedy for my own good. I can't resist taking a risk if there's money involved.";
 				break;
 			case 4:
-				Background += "<br/>Flaw: I can’t resist swindling people who are more powerful than me.";
+				Background += "<br/>Flaw: I can't resist swindling people who are more powerful than me.";
 				break;
 			case 5:
 				Background += "<br/>Flaw: I hate to admit it and will hate myself for it, but I'll run and preserve my own hide if the going gets tough.";
@@ -290,7 +290,7 @@ public class background extends JPanel implements ActionListener
 			}
 			break;
 		case "Criminal":
-			Background += "<br/>Skills: Deception, Stealth<br/>Tool Proficiencies: One type of gaming set, thieves’ tools<br/>Equipment: A crowbar, a set of dark common clothes including a hood, and a belt pouch containing 15 gp";
+			Background += "<br/>Skills: Deception, Stealth<br/>Tool Proficiencies: One type of gaming set, thieves' tools<br/>Equipment: A crowbar, a set of dark common clothes including a hood, and a belt pouch containing 15 gp";
 			Background += "<br/>Feature: Criminal Contact<br/>";
 			trait = rand.nextInt(8);
 			ideal = rand.nextInt(6);
@@ -346,7 +346,7 @@ public class background extends JPanel implements ActionListener
 			switch (ideal)
 			{
 			case 0:
-				Background += "<br/>Ideal: Honor. I don’t steal from others in the trade.";
+				Background += "<br/>Ideal: Honor. I don't steal from others in the trade.";
 				break;
 			case 1:
 				Background += "<br/>Ideal: Freedom. Chains are meant to be broken, as are those who would forge them.";
@@ -358,16 +358,16 @@ public class background extends JPanel implements ActionListener
 				Background += "<br/>Ideal: Greed. I will do whatever it takes to become wealthy.";
 				break;
 			case 4:
-				Background += "<br/>Ideal: People. I’m loyal to my friends, not to any ideals, and everyone else can take a trip down the Styx for all I care.";
+				Background += "<br/>Ideal: People. I'm loyal to my friends, not to any ideals, and everyone else can take a trip down the Styx for all I care.";
 				break;
 			case 5:
-				Background += "<br/>Ideal: Redemption. There’s a spark of good in everyone.";
+				Background += "<br/>Ideal: Redemption. There's a spark of good in everyone.";
 				break;
 			}
 			switch (bond)
 			{
 			case 0:
-				Background += "<br/>Bond: I’m trying to pay off an old debt I owe to a generous benefactor.";
+				Background += "<br/>Bond: I'm trying to pay off an old debt I owe to a generous benefactor.";
 				break;
 			case 1:
 				Background += "<br/>Bond: My ill-gotten gains go to support my family.";
@@ -379,7 +379,7 @@ public class background extends JPanel implements ActionListener
 				Background += "<br/>Bond: I will become the greatest thief that ever lived.";
 				break;
 			case 4:
-				Background += "<br/>Bond: I’m guilty of a terrible crime. I hope I can redeem myself for it.";
+				Background += "<br/>Bond: I'm guilty of a terrible crime. I hope I can redeem myself for it.";
 				break;
 			case 5:
 				Background += "<br/>Bond: Someone I loved died because of a mistake I made. That will never happen again.";
@@ -388,22 +388,22 @@ public class background extends JPanel implements ActionListener
 			switch (flaw)
 			{
 			case 0:
-				Background += "<br/>Flaw: When I see something valuable, I can’t think about anything but how to steal it.";
+				Background += "<br/>Flaw: When I see something valuable, I can't think about anything but how to steal it.";
 				break;
 			case 1:
 				Background += "<br/>Flaw: When faced with a choice between money and my friends, I usually choose the money.";
 				break;
 			case 2:
-				Background += "<br/>Flaw: If there’s a plan, I’ll forget it. If I don’t forget it, I’ll ignore it.";
+				Background += "<br/>Flaw: If there's a plan, I'll forget it. If I don't forget it, I'll ignore it.";
 				break;
 			case 3:
-				Background += "<br/>Flaw: I have a “tell” that reveals when I'm lying.";
+				Background += "<br/>Flaw: I have a tell that reveals when I'm lying.";
 				break;
 			case 4:
 				Background += "<br/>Flaw: I turn tail and run when things look bad.";
 				break;
 			case 5:
-				Background += "<br/>Flaw: An innocent person is in prison for a crime that I committed. I’m okay with that.";
+				Background += "<br/>Flaw: An innocent person is in prison for a crime that I committed. I'm okay with that.";
 				break;
 			}
 
